@@ -52,6 +52,19 @@ We provide **3 velocity-tracking tasks** for Unitree Go2:
 For each task, we include short demonstration datasets collected using policies trained with `rsl-rl`:
 - **Simulation:** one full trajectory (**1000 steps**, ≈20s at default sim settings) per task in IsaacLab.
 - **Real-world:** two short trajectories per task on Unitree Go2 (collected on flat ground using the same control policy), **250 steps each**, concatenated to **~10s** total.
+
+
+### Download demonstration datasets
+
+Download `imitation_data/` (simulation + real-world demonstrations) from Google Drive:
+- https://drive.google.com/drive/folders/1rGj-ei9qy25S4ifH86AiDgKlN8M4sKaY?usp=sharing
+
+After downloading, place the folder at:
+```bash
+<repo-root>/imitation_data/
+```
+
+
 ### Task names and dataset paths
 
 ```bash
