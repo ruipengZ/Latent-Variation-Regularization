@@ -2,8 +2,8 @@
 
 Official code release for the ICRA 2026 paper **Learning Quadruped Walking from Seconds of Demonstration**.
 
-**Project Page:** (placeholder) `https://ruipengZ.github.io/icra26/`  
-**Paper:** (placeholder) arXiv link coming soon  
+**Project Page:** https://ruipengZ.github.io/icra26/ \
+**Paper:**  arXiv link coming soon  
 
 ---
 
