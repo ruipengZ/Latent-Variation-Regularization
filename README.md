@@ -2,7 +2,7 @@
 
 Official code release for the ICRA 2026 paper **Learning Quadruped Walking from Seconds of Demonstration**.
 
-**Project Page:** https://ruipengZ.github.io/icra26/ \
+**Project Page:** https://latent-variation-regularization.github.io/ \
 **Paper:** arXiv link coming soon  
 
 ---
