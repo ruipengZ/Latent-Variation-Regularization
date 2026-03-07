@@ -1,5 +1,5 @@
 <h1 align="center">Learning Quadruped Walking from Seconds of Demonstration</h1>
-<p align="center"><sub>ICRA 2026</sub></p>
+<p align="center"><em style="font-size: 1.05em; color: #666;">ICRA 2026</em></p>
 
 Official code release for the ICRA 2026 paper **Learning Quadruped Walking from Seconds of Demonstration**.
 
