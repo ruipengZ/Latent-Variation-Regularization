@@ -1,4 +1,5 @@
-# Learning Quadruped Walking from Seconds of Demonstration (ICRA 2026)
+<h1 align="center">Learning Quadruped Walking from Seconds of Demonstration</h1>
+<p align="center"><sub>ICRA 2026</sub></p>
 
 Official code release for the ICRA 2026 paper **Learning Quadruped Walking from Seconds of Demonstration**.
 
