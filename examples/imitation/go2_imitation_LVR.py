@@ -19,7 +19,7 @@ from tianshou.data.buffer.base import ReplayBuffer
 from tianshou.data.isaac_collector import Collector
 from tianshou.trainer.offline_graph import offline_trainer
 
-from examples.helpers import knn_epsilon_graph, inspect_neighbors, build_delta_dict
+from examples.helpers import knn_epsilon_graph, build_delta_dict
 
 import wandb
 # wandb.init(mode='disabled') # uncomment if you want to mute wandb
@@ -179,7 +179,7 @@ def train_imitation(args=get_args()):
                                    metric="euclidean",
                                    q=args.knn_epsilon_quantile,
                                    )
-    inspect_neighbors(X, edge_index, undirected=True, metric="euclidean", top=8)
+
     delta_dict = build_delta_dict(edge_index,
                                   num_nodes=len(X),
                                   device = None,

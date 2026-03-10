@@ -3,7 +3,7 @@ sys.path.insert(0, os.path.abspath("."))
 sys.path.insert(0, os.path.abspath(".."))
 sys.path.insert(0, os.path.abspath("../.."))
 from examples.imitation.isaac_env import make_isaac_env
-from examples.helpers import knn_epsilon_graph, inspect_neighbors, build_delta_dict
+from examples.helpers import knn_epsilon_graph, build_delta_dict
 
 import random
 import argparse
@@ -193,7 +193,6 @@ if __name__ == "__main__":
 
         X = torch.from_numpy(input)
         edge_index = knn_epsilon_graph(X, k=args.k_neighbors, metric="euclidean", q=1)
-        inspect_neighbors(X, edge_index, undirected=True, metric="euclidean", top=8)
         delta_dict = build_delta_dict(edge_index,
                                       num_nodes=len(X),
                                       device=None,
