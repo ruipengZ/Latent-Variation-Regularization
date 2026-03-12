@@ -136,35 +136,21 @@ To enable real-time rendering in Isaac Sim:
 --headless 0
 ```
 
-[//]: # (---)
+---
 
-[//]: # ()
-[//]: # (## Citation)
+## Citation
 
-[//]: # ()
-[//]: # (If you find this repository useful, please cite our paper:)
+If you find this repository useful, please cite our paper:
 
-[//]: # ()
-[//]: # (```bibtex)
-
-[//]: # (@inproceedings{zhang2026lvr,)
-
-[//]: # (  title     = {Learning Quadruped Walking from Seconds of Demonstration},)
-
-[//]: # (  author    = {Ruipeng Zhang and <coauthors>},)
-
-[//]: # (  booktitle = {Proc. IEEE International Conference on Robotics and Automation &#40;ICRA&#41;},)
-
-[//]: # (  year      = {2026},)
-
-[//]: # (  note      = {arXiv:XXXX.XXXXX &#40;placeholder&#41;})
-
-[//]: # (})
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (---)
+```bibtex
+@article{zhang2026learning,
+  title={Learning Quadruped Walking from Seconds of Demonstration},
+  author={Zhang, Ruipeng and Yu, Hongzhan and Chang, Ya-Chien and Li, Chenghao and Christensen, Henrik I and Gao, Sicun},
+  journal={arXiv preprint arXiv:2603.06961},
+  year={2026}
+}
+```
+---
 
 ## Acknowledgements
 
